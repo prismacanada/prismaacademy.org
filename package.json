@@ -5,11 +5,11 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "rm -rf build && vite build && touch build/.nojekyll && echo harunzafer.com >> build/CNAME",
+		"build": "rm -rf build && vite build && touch build/.nojekyll && echo prismaacademy.org >> build/CNAME",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"deploy": "npm run build && npx gh-pages -d build -t true",
+		"deploy": "npm run build && npx gh-pages -d build",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
 		"lint": "prettier --check ."
