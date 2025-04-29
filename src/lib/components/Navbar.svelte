@@ -2,7 +2,7 @@
 	let menuOpen = false;
 </script>
 
-<nav class="navbar dark-header w-nav" role="banner">
+<div class="navbar dark-header w-nav" role="banner">
 	<div class="nav-container w-container">
 		<div class="nav-menu-wrapper light-bottom">
 			<a href="/" class="brand-logo w-nav-brand">
@@ -52,4 +52,4 @@
 			</button>
 		</div>
 	</div>
-</nav>
+</div>

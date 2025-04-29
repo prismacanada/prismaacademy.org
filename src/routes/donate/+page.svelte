@@ -1,8 +1,10 @@
 <div class="section">
 	<div class="base-container w-container">
 		<div class="contacts-wrapper-2">
-			<div class="w-layout-blockcontainer img-contact w-container"></div>
-			<div class="contacts-content-wrapper-2">
+			<div class="half-width-container">
+				<img src="images/donation-hero.jpg" class="padded-image" alt="" />
+			</div>
+			<div class="contacts-content-wrapper-2 padded-div">
 				<div data-w-id="bb78cb9c-4786-e83f-44fa-48a0098c31cf" class="title-text">
 					<span class="left">/</span>Support Our Mission<span class="right">/</span>
 				</div>
@@ -11,7 +13,7 @@
 						Donate and Make a Difference
 					</h2>
 				</div>
-				<p data-w-id="a3e8a7d9-8226-8c66-bfe7-e20268b0023c">
+				<p class="align-left">
 					Your contribution helps Prisma Academy Foundation continue empowering individuals through
 					education, mentorship, and community programs. Every donation fuels innovation, growth,
 					and opportunities for those who need it most.
@@ -19,11 +21,10 @@
 
 				<div class="contacts-detail-wrapper-2">
 					<div data-w-id="a3e8a7d9-8226-8c66-bfe7-e20268b0023f" class="contacts-detail-2">
-						<div class="content-text-contact">How to Donate</div>
-						<p style="margin-top: 10px;">You can make a donation easily via Interac e-Transfer.</p>
-						<div style="margin-top: 10px;">
-							<strong>Email for Donations:</strong>
-							<a href="mailto:donations@prismaacademy.org" class="link-2"
+						<h4>How to Donate</h4>
+						<p>You can make a donation easily via <strong>Interac e-Transfer</strong> to:</p>
+						<div>
+							<a href="mailto:donations@prismaacademy.org" class="link-3"
 								>donations@prismaacademy.org</a
 							>
 						</div>
@@ -103,5 +104,24 @@
 
 	.footer-social-icon:hover {
 		color: #1da1f2; /* Optional: hover color */
+	}
+
+	.align-left {
+		text-align: left;
+	}
+
+	.half-width-container {
+		margin-top: 45px;
+		width: 50%;
+	}
+
+	.padded-image {
+		padding-left: 20px;
+		width: 100%; /* Makes sure the image fits the container */
+		height: auto; /* Keep the image proportions */
+	}
+
+	.padded-div {
+		padding-right: 10px;
 	}
 </style>

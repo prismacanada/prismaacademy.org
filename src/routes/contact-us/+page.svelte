@@ -1,7 +1,9 @@
 <div class="section">
 	<div class="base-container w-container">
 		<div class="contacts-wrapper-2">
-			<div class="w-layout-blockcontainer img-contact w-container"></div>
+			<div class="half-width-container">
+				<img src="images/donation-hero.jpg" class="padded-image" />
+			</div>
 			<div class="contacts-content-wrapper-2">
 				<div data-w-id="bb78cb9c-4786-e83f-44fa-48a0098c31cf" class="title-text">
 					<span class="left">/</span>Get in touch<span class="right">/</span>
@@ -46,37 +48,39 @@
 					<a href="mailto:info@prismaacademy.org" class="link-2">info@prismaacademy.org</a>
 				</div>
 
-				<div data-w-id="a3e8a7d9-8226-8c66-bfe7-e20268b0024e" class="links-contact" style="margin-top: 20px;">
+				<div
+					data-w-id="a3e8a7d9-8226-8c66-bfe7-e20268b0024e"
+					class="links-contact"
+					style="margin-top: 20px;"
+				>
 					<div class="content-text-contact" style="margin-bottom: 15px;">Social Media</div>
 					<div class="social-icons-wrapper">
-					  <a
-						href="https://www.instagram.com/prisma_academy_foundation/"
-						target="_blank"
-						class="footer-social-icon"
-						aria-label="Visit our Instagram page"
-					  >
-						<i class="fab fa-instagram" aria-hidden="true"></i>
-					  </a>
-					  <a
-						href="https://www.youtube.com/@Prisma"
-						target="_blank"
-						class="footer-social-icon"
-						aria-label="Visit our YouTube channel"
-					  >
-						<i class="fab fa-youtube" aria-hidden="true"></i>
-					  </a>
-					  <a
-						href="https://x.com/PrismaAcademy"
-						target="_blank"
-						class="footer-social-icon"
-						aria-label="Visit our X (formerly Twitter) profile"
-					  >
-						<i class="fab fa-x-twitter" aria-hidden="true"></i>
-					  </a>
+						<a
+							href="https://www.instagram.com/prisma_academy_foundation/"
+							target="_blank"
+							class="footer-social-icon"
+							aria-label="Visit our Instagram page"
+						>
+							<i class="fab fa-instagram" aria-hidden="true"></i>
+						</a>
+						<a
+							href="https://www.youtube.com/@Prisma"
+							target="_blank"
+							class="footer-social-icon"
+							aria-label="Visit our YouTube channel"
+						>
+							<i class="fab fa-youtube" aria-hidden="true"></i>
+						</a>
+						<a
+							href="https://x.com/PrismaAcademy"
+							target="_blank"
+							class="footer-social-icon"
+							aria-label="Visit our X (formerly Twitter) profile"
+						>
+							<i class="fab fa-x-twitter" aria-hidden="true"></i>
+						</a>
 					</div>
-				  </div>
-				  
-				  
+				</div>
 			</div>
 		</div>
 	</div>
@@ -86,22 +90,21 @@
 </section>
 
 <style>
-.social-icons-wrapper {
-  display: flex;
-  gap: 15px;
-  background-color: #07232f;
-  padding: 12px;
-  border-radius: 12px;
-  justify-content: center;
-  align-items: center;
-}
+	.social-icons-wrapper {
+		display: flex;
+		gap: 15px;
+		background-color: #07232f;
+		padding: 12px;
+		border-radius: 12px;
+		justify-content: center;
+		align-items: center;
+	}
 
-.links-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
+	.links-contact {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
 
 	.footer-social-icon {
 		color: white; /* Icon color */
@@ -115,5 +118,16 @@
 
 	.section {
 		margin-top: 70px;
+	}
+
+	.half-width-container {
+		margin-top: 45px;
+		width: 50%;
+	}
+
+	.padded-image {
+		padding: 10px; /* You can adjust padding as needed */
+		width: 100%; /* Makes sure the image fits the container */
+		height: auto; /* Keep the image proportions */
 	}
 </style>
