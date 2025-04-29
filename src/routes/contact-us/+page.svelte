@@ -46,34 +46,37 @@
 					<a href="mailto:info@prismaacademy.org" class="link-2">info@prismaacademy.org</a>
 				</div>
 
-				
-				<div data-w-id="a3e8a7d9-8226-8c66-bfe7-e20268b0024e" class="links-contact">					
-					<div class="content-text-contact">Social</div>
+				<div data-w-id="a3e8a7d9-8226-8c66-bfe7-e20268b0024e" class="links-contact" style="margin-top: 20px;">
+					<div class="content-text-contact" style="margin-bottom: 15px;">Social Media</div>
 					<div class="social-icons-wrapper">
-						<a
-						  href="https://www.instagram.com/prisma_academy_foundation/"
-						  target="_blank"
-						  class="footer-social-icon"
-						>
-						  <i class="fab fa-instagram"></i>
-						</a>
-						<a
-						  href="https://www.youtube.com/@Prisma"
-						  target="_blank"
-						  class="footer-social-icon"
-						>
-						  <i class="fab fa-youtube"></i>
-						</a>
-						<a
-						  href="https://x.com/PrismaAcademy"
-						  target="_blank"
-						  class="footer-social-icon"
-						>
-						  <i class="fab fa-x-twitter"></i>
-						</a>
-					  </div>
-					  
-				</div>
+					  <a
+						href="https://www.instagram.com/prisma_academy_foundation/"
+						target="_blank"
+						class="footer-social-icon"
+						aria-label="Visit our Instagram page"
+					  >
+						<i class="fab fa-instagram" aria-hidden="true"></i>
+					  </a>
+					  <a
+						href="https://www.youtube.com/@Prisma"
+						target="_blank"
+						class="footer-social-icon"
+						aria-label="Visit our YouTube channel"
+					  >
+						<i class="fab fa-youtube" aria-hidden="true"></i>
+					  </a>
+					  <a
+						href="https://x.com/PrismaAcademy"
+						target="_blank"
+						class="footer-social-icon"
+						aria-label="Visit our X (formerly Twitter) profile"
+					  >
+						<i class="fab fa-x-twitter" aria-hidden="true"></i>
+					  </a>
+					</div>
+				  </div>
+				  
+				  
 			</div>
 		</div>
 	</div>
@@ -81,10 +84,11 @@
 <section class="section without-top-spacing">
 	<div class="w-layout-blockcontainer base-container w-container"></div>
 </section>
+
 <style>
-	.social-icons-wrapper {
+.social-icons-wrapper {
   display: flex;
-  gap: 12px; /* Adjust spacing between icons */
+  gap: 15px;
   background-color: #07232f;
   padding: 12px;
   border-radius: 12px;
@@ -92,14 +96,24 @@
   align-items: center;
 }
 
-.footer-social-icon {
-  color: white; /* Icon color */
-  font-size: 24px; /* Adjust icon size */
-  text-decoration: none;
+.links-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.footer-social-icon:hover {
-  color: #1da1f2; /* Optional: hover color */
-}
 
+	.footer-social-icon {
+		color: white; /* Icon color */
+		font-size: 24px; /* Adjust icon size */
+		text-decoration: none;
+	}
+
+	.footer-social-icon:hover {
+		color: #1da1f2; /* Optional: hover color */
+	}
+
+	.section {
+		margin-top: 70px;
+	}
 </style>

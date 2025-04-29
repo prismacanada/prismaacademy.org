@@ -1,7 +1,4 @@
 <script>
-	import logo from '$lib/images/prisma-academy-logo-2.png';
-    import menuButton from '$lib/images/menu-btn.svg';
-    import closeButton from '$lib/images/close-btn.svg';
 	let menuOpen = false;
 </script>
 
@@ -10,7 +7,7 @@
 		<div class="nav-menu-wrapper light-bottom">
 			<a href="/" class="brand-logo w-nav-brand">
 				<img
-					src={logo}
+					src="images/prisma-academy-logo-2.png"
 					alt="Prisma Academy Logo"
 					class="logo-header"
 					height="30"
@@ -21,14 +18,14 @@
 				<div class="tablet-menu">
 					<a href="/" class="brand-tablet w-nav-brand">
 						<img
-							src={logo}
+							src="images/prisma-academy-logo-2.png"
 							alt="Logo Dark Text"
 							height="30"
 							class="logo-header"
 						/>
 					</a>
 					<button class="close-menu-button w-nav-button" on:click={() => (menuOpen = false)}>
-						<img src={closeButton} alt="Close" class="nav-close-icon" />
+						<img src="images/close-btn.svg" alt="Close" class="nav-close-icon" />
 					</button>
 				</div>
 
@@ -51,7 +48,7 @@
 			</div>
 
 			<button class="menu-button w-nav-button" on:click={() => (menuOpen = !menuOpen)}>
-				<img src={menuButton} alt="Menu" height="16" class="image-burger white-burger" />
+				<img src="images/menu-btn.svg" alt="Menu" height="16" class="image-burger white-burger" />
 			</button>
 		</div>
 	</div>

@@ -1,3 +1,8 @@
+<script lang="ts">
+  import EventCard from '$lib/components/EventCard.svelte';
+  import { events } from '$lib/data/events';
+</script>
+
 <section class="section home-1-banner">
     <div class="w-layout-blockcontainer base-container w-container">
       <div class="w-layout-grid banner-home-1-content-wraper">
@@ -69,33 +74,16 @@
     <h1 class="heading-5">Recent and Upcoming Events</h1>
     <div class="w-layout-blockcontainer base-container w-container">
       <ul role="list" class="list">
-        <li class="list-item">
-          <div class="w-layout-blockcontainer container-5 w-container"><img src="images/resume-linkedin-workshop.jpeg" loading="lazy" width="Auto" height="300" alt="" srcset="images/resume-linkedin-workshop-p-500.jpeg 500w, images/resume-linkedin-workshop-p-800.jpeg 800w, images/resume-linkedin-workshop-p-1080.jpeg 1080w, images/resume-linkedin-workshop.jpeg 1200w" sizes="300px"></div>
-          <div class="w-layout-blockcontainer container-4 w-container">
-            <h5>February 02, 2025</h5>
-            <h3>Resume and LinkedIn Profile Workshop<br></h3>
-            <p class="paragraph-8">Welcome to the <strong>Resume and LinkedIn Profile Workshop</strong>! Are you looking to spruce up your resume and LinkedIn profile? Join us for this online event where we&#x27;ll provide tips and tricks to make your professional profiles stand out. Learn how to showcase your skills and experience effectively to attract potential employers. Don&#x27;t miss out on this opportunity to enhance your online presence and increase your chances of landing your dream job. Register now to secure your spot!</p>
-            <a href="https://www.eventbrite.com/e/resume-and-linkedin-profile-workshop-tickets-1222931363629?aff=oddtdtcreator" class="event-learn-more-button">Learn More</a>
-          </div>
-        </li>
-        <li class="list-item">
-          <div class="w-layout-blockcontainer container-5 w-container"><img src="images/vfx-workshop.jpg" loading="lazy" width="Auto" height="300" alt="" srcset="images/vfx-workshop-p-500.jpg 500w, images/vfx-workshop-p-800.jpg 800w, images/vfx-workshop.jpg 940w" sizes="231.703125px"></div>
-          <div class="w-layout-blockcontainer container-4 w-container">
-            <h5>December 11, 2024</h5>
-            <h3>Career Exploration Workshop: Visual Effects(VFX) and Animation</h3>
-            <p class="paragraph-8">You are invited to explore the career pathways, job opportunities and market trends in Visual Effects(VFX) and Animation in Canada</p>
-            <a href="https://www.eventbrite.ca/e/career-exploration-workshop-visual-effectsvfx-and-animation-tickets-1098650726899?aff=oddtdtcreator" class="event-learn-more-button">Learn More</a>
-          </div>
-        </li>
-        <li class="list-item">
-          <div class="w-layout-blockcontainer container-5 w-container"><img src="images/Annual-Career-Meetup-2024.png" loading="lazy" width="Auto" height="300" alt="" srcset="images/Annual-Career-Meetup-2024-p-500.png 500w, images/Annual-Career-Meetup-2024-p-800.png 800w, images/Annual-Career-Meetup-2024-p-1080.png 1080w, images/Annual-Career-Meetup-2024.png 1414w" sizes="212.09375px"></div>
-          <div class="w-layout-blockcontainer container-4 w-container">
-            <h5>October 26, 2024</h5>
-            <h3>Annual Career Meetup 2024</h3>
-            <p class="paragraph-8">🚀 Exciting News! 🚀<br>We’re thrilled to announce our Annual Career Meetup 2024, happening on 26th of October at The Learning Enrichment Foundation (LEF), Toronto! 🎉<br>💡 Why Attend? You’ll get the chance to ask questions directly to experts, participate in interactive sessions, and enjoy a coffee break with stand-up conversations!</p>
-            <a href="https://www.eventbrite.com/e/prisma-annual-career-meetup-2024-connect-with-industry-experts-tickets-1040212883737?aff=oddtdtcreator" class="event-learn-more-button">Learn More</a>
-          </div>
-        </li>
+        {#each events.slice(0, 3) as event}
+          <EventCard
+            date={event.date}
+            title={event.title}
+            description={event.description}
+            imageUrl={event.imageUrl}
+            imageAlt={event.imageAlt}
+            learnMoreUrl={event.learnMoreUrl}
+          />
+        {/each}
       </ul>
     </div>
   </section>
