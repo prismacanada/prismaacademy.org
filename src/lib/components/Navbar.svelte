@@ -1,8 +1,14 @@
-<script>
-	let menuOpen = false;
-</script>
-
-<div class="navbar dark-header w-nav" role="banner">
+<div
+	data-animation="over-left"
+	class="navbar dark-header w-nav"
+	data-easing2="ease"
+	data-easing="ease"
+	data-collapse="medium"
+	role="banner"
+	data-no-scroll="1"
+	data-duration="400"
+	data-doc-height="1"
+>
 	<div class="nav-container w-container">
 		<div class="nav-menu-wrapper light-bottom">
 			<a href="/" class="brand-logo w-nav-brand">
@@ -14,7 +20,7 @@
 				/>
 			</a>
 
-			<nav role="navigation" class="nav-menu w-nav-menu" class:open={menuOpen}>
+			<nav role="navigation" class="nav-menu w-nav-menu ">
 				<div class="tablet-menu">
 					<a href="/" class="brand-tablet w-nav-brand">
 						<img
@@ -24,9 +30,14 @@
 							class="logo-header"
 						/>
 					</a>
-					<button class="close-menu-button w-nav-button" on:click={() => (menuOpen = false)}>
-						<img src="images/close-btn.svg" alt="Close" class="nav-close-icon" />
-					</button>
+					<div class="close-menu-button w-nav-button">
+						<img
+						  src="images/close-btn.svg"
+						  loading="lazy"
+						  alt="icon"
+						  class="nav-close-icon"
+						/>
+					  </div>
 				</div>
 
 				<div class="menu-wrap">
@@ -47,9 +58,15 @@
 				>
 			</div>
 
-			<button class="menu-button w-nav-button" on:click={() => (menuOpen = !menuOpen)}>
-				<img src="images/menu-btn.svg" alt="Menu" height="16" class="image-burger white-burger" />
-			</button>
+			<div class="menu-button w-nav-button">
+				<img
+				  src="images/menu-btn.svg"
+				  loading="lazy"
+				  alt="icon"
+				  height="16"
+				  class="image-burger white-burger"
+				/>
+			  </div>
 		</div>
 	</div>
 </div>

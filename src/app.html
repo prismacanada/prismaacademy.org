@@ -1,5 +1,5 @@
 <!doctype html>
-<html data-wf-page="6792fe912b12b425e9c2db29" data-wf-site="6792fe912b12b425e9c2da36"  lang="en">
+<html data-wf-page="6792fe912b12b425e9c2db29" data-wf-site="6792fe912b12b425e9c2da36" lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -56,16 +56,18 @@
 		></script>
 		<script src="js/webflow.js" type="text/javascript"></script>
 		<script>
-			window.addEventListener('load', function() {
-			  if (window.Webflow && window.Webflow.require) {
-				var ix2 = window.Webflow.require('ix2');
-				if (ix2 && ix2.init) {
-				  ix2.init();
+			window.addEventListener('sveltekit:start', () => {
+				if (window.Webflow && window.Webflow.require) {
+					const ix2 = window.Webflow.require('ix2');
+					if (ix2 && ix2.init) {
+						ix2.init();
+					}
+					// Also re-init navbar interactions
+					if (Webflow.require('navbar')?.ready) {
+						Webflow.require('navbar').ready();
+					}
 				}
-			  }
 			});
-		  </script>
-		  
-		  
+		</script>
 	</body>
 </html>

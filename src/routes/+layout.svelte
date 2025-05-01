@@ -1,13 +1,17 @@
 <script>
     import Navbar from '$lib/components/Navbar.svelte';
     import Footer from '$lib/components/Footer.svelte';
-  </script>
+    import { updated } from '$app/state';
+    let { children } = $props();
+
+</script>
   
   <Navbar />
   
-  <main class="min-h-screen">
-    <slot />
+  <main data-sveltekit-reload={updated.current ? '' : 'off'}>
+    {@render children()}
   </main>
   
   <Footer />
   
+
