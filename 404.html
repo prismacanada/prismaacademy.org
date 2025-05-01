@@ -1,5 +1,5 @@
 <!doctype html>
-<html data-wf-page="6792fe912b12b425e9c2db29" data-wf-site="6792fe912b12b425e9c2da36"  lang="en">
+<html data-wf-page="6792fe912b12b425e9c2db29" data-wf-site="6792fe912b12b425e9c2da36" lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -45,29 +45,28 @@
 	</head>
 
 	
-		<link rel="modulepreload" href="/_app/immutable/entry/start.B0NwkYAN.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/CVy8d3Eo.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/CaLNaoY1.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/ugYCSm7K.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.D64CVm51.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/BMIf4-g3.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/BYrqRNmO.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/_nx0EZFs.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/BMAUI_Rp.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.AW5q2DNO.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CB98z0ms.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DbWJALPT.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BMDjKTez.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.0aI4Ctph.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CrxgIt2B.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DRuGiryf.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/6fb67MgW.js">
 
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_yim7jz = {
+					__sveltekit_75a9o4 = {
 						base: ""
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/_app/immutable/entry/start.B0NwkYAN.js"),
-						import("/_app/immutable/entry/app.D64CVm51.js")
+						import("/_app/immutable/entry/start.AW5q2DNO.js"),
+						import("/_app/immutable/entry/app.0aI4Ctph.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
@@ -82,16 +81,18 @@
 		></script>
 		<script src="js/webflow.js" type="text/javascript"></script>
 		<script>
-			window.addEventListener('load', function() {
-			  if (window.Webflow && window.Webflow.require) {
-				var ix2 = window.Webflow.require('ix2');
-				if (ix2 && ix2.init) {
-				  ix2.init();
+			window.addEventListener('sveltekit:start', () => {
+				if (window.Webflow && window.Webflow.require) {
+					const ix2 = window.Webflow.require('ix2');
+					if (ix2 && ix2.init) {
+						ix2.init();
+					}
+					// Also re-init navbar interactions
+					if (Webflow.require('navbar')?.ready) {
+						Webflow.require('navbar').ready();
+					}
 				}
-			  }
 			});
-		  </script>
-		  
-		  
+		</script>
 	</body>
 </html>
