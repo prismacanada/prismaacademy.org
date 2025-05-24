@@ -20,7 +20,7 @@
 				/>
 			</a>
 
-			<nav role="navigation" class="nav-menu w-nav-menu ">
+			<nav role="navigation" class="nav-menu w-nav-menu">
 				<div class="tablet-menu">
 					<a href="/" class="brand-tablet w-nav-brand">
 						<img
@@ -31,13 +31,8 @@
 						/>
 					</a>
 					<div class="close-menu-button w-nav-button">
-						<img
-						  src="images/close-btn.svg"
-						  loading="lazy"
-						  alt="icon"
-						  class="nav-close-icon"
-						/>
-					  </div>
+						<img src="images/close-btn.svg" loading="lazy" alt="icon" class="nav-close-icon" />
+					</div>
 				</div>
 
 				<div class="menu-wrap">
@@ -45,8 +40,8 @@
 					<a href="/events" class="nav-link white-nav-link w-nav-link">Events</a>
 					<a href="/about-us" class="nav-link white-nav-link w-nav-link">About Us</a>
 					<div class="search-shop-con desctop-hidden">
-						<a href="/contact-us" class="primary-button"
-							>Donate<span class="button-arrow"></span></a
+						<a href="https://linktr.ee/prismaacademy" class="primary-button" target="_blank"
+							>Connect with Mentors</a
 						>
 					</div>
 				</div>
@@ -60,13 +55,13 @@
 
 			<div class="menu-button w-nav-button">
 				<img
-				  src="images/menu-btn.svg"
-				  loading="lazy"
-				  alt="icon"
-				  height="16"
-				  class="image-burger white-burger"
+					src="images/menu-btn.svg"
+					loading="lazy"
+					alt="icon"
+					height="16"
+					class="image-burger white-burger"
 				/>
-			  </div>
+			</div>
 		</div>
 	</div>
 </div>
