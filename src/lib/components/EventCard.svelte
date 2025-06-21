@@ -20,15 +20,9 @@
   <div class="w-layout-blockcontainer container-4 w-container"  style="width: 100%;">
     <h5>{@html date}</h5>
     <h3>{@html title}</h3>
-    <p class="paragraph-8" style="width: 100%; box-sizing: border-box;">
+    <p class="paragraph-8">
       {@html description}
     </p>
     <a href={learnMoreUrl} class="event-learn-more-button">Learn More</a>
   </div>
 </li>
-<!-- <style>
-  :global(.list-item) {
-    width: 100% !important;
-    min-width: 100% !important;
-  }
-</style> -->
