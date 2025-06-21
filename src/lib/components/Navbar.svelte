@@ -20,7 +20,7 @@
 				/>
 			</a>
 
-			<nav role="navigation" class="nav-menu w-nav-menu">
+			<nav class="nav-menu w-nav-menu">
 				<div class="tablet-menu">
 					<a href="/" class="brand-tablet w-nav-brand">
 						<img

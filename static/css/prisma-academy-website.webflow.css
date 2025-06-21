@@ -15,6 +15,11 @@
   --black: black;
 }
 
+.list-item-full-width {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;

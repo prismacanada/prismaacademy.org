@@ -1,5 +1,33 @@
 export const events = [
 	{
+		date: 'June 14, 2025',
+		title: 'Criminology & Forensic Psychology Career Expo',
+		description:
+			'Curious about how crime is studied and understood? Join us for expert insights, career tips, and networking. Free to attend!',
+		imageUrl: 'images/events/criminology-forensic-psychology-career-expo.avif',
+		imageAlt: 'Criminology & Forensic Psychology Career Expo',
+		learnMoreUrl:
+			'https://www.eventbrite.ca/e/criminology-forensic-psychology-career-expo-tickets-1397721204749?aff=oddtdtcreator'
+	},
+	{
+		date: 'May 31, 2025',
+		title: 'LinkedIn Networking Photo Event',
+		description:
+			"Enhance your professional image with a free LinkedIn headshot and meaningful networking. Join Prisma's networking event.",
+		imageUrl: 'images/events/linkedin-networking-photo-event.jpg',
+		imageAlt: 'LinkedIn Networking Photo Event',
+		learnMoreUrl:
+			'https://www.eventbrite.ca/e/linkedin-networking-photo-event-tickets-1381235645999?aff=oddtdtcreator'
+	},
+	{
+		date: 'May 25, 2025',
+		title: 'Beginner Macrame Workshop',
+		description: `Create Your Own Boho-Chic Macramé Wall Hanging – A Hands-On Craft Workshop`,
+		imageUrl: 'images/events/beginner-macrame-workshop.avif',
+		imageAlt: 'Beginner Macrame Workshop',
+		learnMoreUrl: 'https://www.eventbrite.ca/e/beginner-macrame-workshop-tickets-1366632196689'
+	},
+	{
 		date: 'May 10, 2025',
 		title: 'From Passion to Profession: Teaching in Canada',
 		description: `
