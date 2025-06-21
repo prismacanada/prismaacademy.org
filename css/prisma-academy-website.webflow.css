@@ -15,6 +15,15 @@
   --black: black;
 }
 
+/* .full-width-wrapper {
+  width: 100%;
+  
+}
+
+.container-4 .paragraph-8 {
+  width: 100%;
+} */
+
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
