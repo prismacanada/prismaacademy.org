@@ -1,3 +1,14 @@
+<script lang="ts">
+	import SEO from '$lib/components/SEO.svelte';
+</script>
+
+<SEO
+	title="Donate – Support Prisma Academy"
+	description="Support our mission to empower youth by donating to Prisma Academy. Every contribution helps."
+	keywords="donate to Prisma Academy, youth support, charity, non-profit donations"
+	url="https://prismaacademy.org/donate"
+/>
+
 <div class="section">
 	<div class="base-container w-container">
 		<div class="contacts-wrapper-2">

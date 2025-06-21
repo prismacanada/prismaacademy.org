@@ -1,7 +1,15 @@
 <script lang="ts">
+	import SEO from '$lib/components/SEO.svelte';
 	import EventCard from '$lib/components/EventCard.svelte';
 	import { events } from '$lib/data/events';
 </script>
+
+<SEO
+	title="Events – Prisma Academy"
+	description="Join our upcoming events and programs aimed at youth empowerment and community engagement."
+	keywords="Prisma Academy events, youth events, workshops, community programs"
+	url="https://prismaacademy.org/events"
+/>
 
 <div class="section event-3-banner">
 	<div class="base-container w-container">

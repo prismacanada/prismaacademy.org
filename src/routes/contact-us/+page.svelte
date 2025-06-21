@@ -1,3 +1,14 @@
+<script lang="ts">
+	import SEO from '$lib/components/SEO.svelte';
+</script>
+
+<SEO
+	title="Contact Us – Prisma Academy"
+	description="Contact Prisma Academy for inquiries about our programs, partnerships, or volunteering."
+	keywords="contact Prisma Academy, volunteer, get involved, reach out"
+	url="https://prismaacademy.org/contact-us"
+/>
+
 <div class="section">
 	<div class="base-container w-container">
 		<div class="contacts-wrapper-2">

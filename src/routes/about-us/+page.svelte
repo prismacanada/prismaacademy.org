@@ -1,3 +1,15 @@
+<script lang="ts">
+  import SEO from '$lib/components/SEO.svelte';
+</script>
+
+<SEO
+  title="About Us – Prisma Academy"
+  description="Learn about Prisma Academy’s mission to support youth through personal, educational, and career development."
+  keywords="about Prisma Academy, non-profit, youth empowerment, education programs"
+  url="https://prismaacademy.org/about-us"
+/>
+
+
 <section class="section about-us-banner-section">
 	<div class="w-layout-blockcontainer base-container w-container">
 		<div class="content-about-us-wrapper">
