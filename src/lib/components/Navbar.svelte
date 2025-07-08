@@ -10,7 +10,7 @@
 	data-doc-height="1"
 >
 	<div class="nav-container w-container">
-		<div class="nav-menu-wrapper light-bottom">
+		<div class="nav-menu-wrapper">
 			<a href="/" class="brand-logo w-nav-brand">
 				<img
 					src="images/prisma-academy-logo-2.png"
@@ -38,7 +38,9 @@
 				<div class="menu-wrap">
 					<a href="/" class="nav-link white-nav-link w-nav-link">Home</a>
 					<a href="/events" class="nav-link white-nav-link w-nav-link">Events</a>
+					<a href="/clubs" class="nav-link white-nav-link w-nav-link">Clubs</a>
 					<a href="/about-us" class="nav-link white-nav-link w-nav-link">About Us</a>
+
 					<div class="search-shop-con desctop-hidden">
 						<a href="https://linktr.ee/prismaacademy" class="primary-button" target="_blank"
 							>Connect with Mentors</a

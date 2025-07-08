@@ -364,6 +364,12 @@ blockquote {
   overflow: hidden;
 }
 
+.section.clubs-banner-section {
+  background-color: var(--text-dark);
+  padding-top: 70px;
+  overflow: hidden;
+}
+
 .section.why-choose-banner-section, .section.mission-banner-section {
   padding-top: 170px;
 }
@@ -404,8 +410,7 @@ blockquote {
   overflow: hidden;
 }
 
-.section.events-1-banner {
-  background-color: var(--text-dark);
+.section.events-1-banner {  
   padding-top: 170px;
   padding-bottom: 0;
 }
